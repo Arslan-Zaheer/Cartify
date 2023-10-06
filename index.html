@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" href="./assets/favicon/favicon.ico">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="index.css">
+    <title>Cartify</title>
+
+</head>
+
+<body>
+    <div id="container">
+
+        <img id="img-cart" src="./assets/cart.png"> <br>
+        <input type="text" id="input-field" placeholder="Enter Your Item"> <br>
+        <button id="add-btn">Add to Cart</button>
+        <h5 id="removal-guide">Double Click on the Item to Remove</h5>
+        <ul id="shopping-list"></ul>
+    </div>
+    <script src="database.js" type="module"></script>
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
